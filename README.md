@@ -1,9 +1,9 @@
 ## easy-real-time-face-recognition-python
 
-#packages needed
+##packages needed
   1. opencv
   2. numpy
-  3. 
+  3. pillow
 
 #There are three steps for face recognition:
   1. Collecting face data (your face pictures) and labels to dataset folder. (code 1)
