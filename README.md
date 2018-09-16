@@ -13,7 +13,7 @@ Instructions:
   3. Run the first code, enter number '1' (for first person), then computer will take your face pictures and save into 'dataset' folder.
   When finish taking pictures, "[INFO] Exiting Program and cleanup stuff" pops up.
   
- (3.5. Run the first code again, enter number '2' (for second person), follow the same procedure.) 
+  (3.5. Run the first code again, enter number '2' (for second person), follow the same procedure.) 
 
   4. Run the second code, just wait several seconds to train the model.
   
