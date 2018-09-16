@@ -13,17 +13,17 @@ import numpy as np
 import os 
 
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('trainer/trainer.yml')
+recognizer.read('trainer/trainer.yml')   #load trained model
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-#iniciate id counter
-id = 2
+#iniciate id counter, the number of persons you want to include
+id = 2 #two persons (e.g. Jacob, Jack)
 
-# names related to ids: example ==> Marcelo: id=1,  etc
-names = ['','xie yuan','xing tong'] 
+
+names = ['','Jacob','Jack']  #key in names, start from the second place, leave first empty
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
