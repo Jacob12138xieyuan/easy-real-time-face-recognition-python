@@ -16,15 +16,17 @@ cam = cv2.VideoCapture(0)
 cam.set(3, 640) # set video width
 cam.set(4, 480) # set video height
 
+#make sure 'haarcascade_frontalface_default.xml' is in the same folder as this code
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# For each person, enter one numeric face id
+# For each person, enter one numeric face id (must enter number start from 1, this is the lable of person 1)
 face_id = input('\n enter user id end press <return> ==>  ')
 
 print("\n [INFO] Initializing face capture. Look the camera and wait ...")
 # Initialize individual sampling face count
 count = 0
 
+#start detect your face and take 30 pictures
 while(True):
 
     ret, img = cam.read()
