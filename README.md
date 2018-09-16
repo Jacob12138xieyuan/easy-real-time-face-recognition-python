@@ -23,4 +23,4 @@ Instructions:
   
   6. enjoy!
   
- <img src="Xie Yuan and his friend.png" width="400" height="250">
+ <img src="xie yuan and his friend.png" width="400" height="250">
