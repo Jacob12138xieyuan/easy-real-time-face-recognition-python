@@ -10,8 +10,7 @@ Instructions:
   
   2. Crate two empty folders named 'dataset' and 'trainer' in the above folder.
   
-  ![7ff7ac55fb4fb669959800ea6fac1cbb](https://user-images.githubusercontent.com/37478093/45594480-e0750600-b9cd-11e8-997e-d8048e22d132.png)
-
+<img src="folder.png" width="400" height="250">
   
   3. Run the first code, enter number '1' (for first person), then computer will take your face pictures and save into 'dataset' folder.
   When finish taking pictures, "[INFO] Exiting Program and cleanup stuff" pops up.
@@ -24,4 +23,4 @@ Instructions:
   
   6. enjoy!
   
-  ![49ca4272fc2b091d10fe656f2c8764c0](https://user-images.githubusercontent.com/37478093/45594444-52008480-b9cd-11e8-8602-7a6d511b7174.png)
+ <img src="Xie Yuan and his friend.png" width="400" height="250">
