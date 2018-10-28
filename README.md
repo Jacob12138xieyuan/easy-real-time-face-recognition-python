@@ -27,5 +27,6 @@
   5. Run the third code, it will open your camera and start real time face recognition.
   
   ## 6. enjoy!
-  hahahaha
+  ###hahahaha
+  
   <img src="xie yuan and his friend.png" width="400">
